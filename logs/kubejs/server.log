@@ -1,0 +1,26 @@
+[00:20:26] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[00:20:26] [INIT] Loaded plugins:
+[00:20:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[00:20:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[00:20:26] [INIT] - com.almostreliable.morejs.Plugin
+[00:20:26] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[00:20:26] [INIT] - com.bobvaraioa.kubejspowah.KubeJSPowahPlugin
+[00:20:26] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[00:20:26] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[00:20:26] [INIT] - com.probejs.ProbeJSPlugin
+[00:20:26] [INIT] - com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
+[00:20:26] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[00:20:26] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[00:20:26] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[00:20:26] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[00:20:26] [INIT] - com.bobvarioa.kubejsreiruntime.integrations.kube.KubePlugin
+[00:20:26] [INIT] - net.yxiao233.ifeu.common.compact.kubejs.ModKubeJSPlugin
+[00:20:26] [INIT] - thelm.jaopca.compat.kubejs.JAOPCAKubeJSPlugin
+[00:20:26] [INIT] - dev.sorin.kubejsextendedcrafting.KubejsExtendedCraftingPlugin
+[00:20:26] [INIT] - novamachina.exnihilosequentia.common.compat.kubejs.KubeJSExNihiloPlugin
+[00:20:26] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[00:20:26] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[00:20:26] [ERROR] ! Removing crafting/Thermal/Новий Текстовий документ.js#1: ReferenceError: "ServerEvent" is not defined.
+[00:20:26] [INFO] Loaded 1/2 KubeJS server scripts in 0.007 s with 1 errors and 0 warnings
+[00:20:26] [INFO] Scripts loaded
+[00:20:27] [INFO] Server resource reload complete!
