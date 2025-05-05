@@ -42,3 +42,23 @@
 [01:42:00.625][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
 [01:42:00.683][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
 [01:42:00.688][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[01:46:06.501][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[01:46:06.501][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[01:46:06.508][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[01:46:06.509][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[01:46:06.512][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[01:46:06.743][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[01:46:06.743][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[01:46:06.749][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[01:46:06.791][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[01:46:06.795][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[01:47:15.685][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[01:47:15.685][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[01:47:15.691][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[01:47:15.692][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[01:47:15.695][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[01:47:15.911][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[01:47:15.911][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[01:47:15.917][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[01:47:15.959][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[01:47:15.963][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
