@@ -135,5 +135,11 @@
     "infused_farmland": true,
     "crop": true,
     "inferium_crop": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "main": true,
+    "display.content": true,
+    "display.status": true
   }
 }

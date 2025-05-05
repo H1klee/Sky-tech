@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "66758e381e3b45e59fb5dc55c806297c"
+	name: "_Hiklee_#66758e38"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = true
-  world = nestworld.site:37705
+  is_server = false
+  world = /home/mykhailo/Documents/curseforge/Instances/Skytech/saves/Новий світ (1)
 }
 
