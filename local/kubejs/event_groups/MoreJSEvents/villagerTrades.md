@@ -20,22 +20,22 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | removeTrades | TradeFilter |  | void | ✘ |
-| removeModdedTrades | VillagerProfession[], IntRange |  | void | ✘ |
-| removeModdedTrades |  |  | void | ✘ |
 | forEachTrades | VillagerProfession[], IntRange, Consumer<List<VillagerTrades$ItemListing>> |  | void | ✘ |
 | forEachTrades | ForEachCallback |  | void | ✘ |
+| removeModdedTrades |  |  | void | ✘ |
+| removeModdedTrades | VillagerProfession[], IntRange |  | void | ✘ |
 | addCustomTrade | VillagerProfession, int, Transformer |  | void | ✘ |
-| getTrades | VillagerProfession, int |  | List<VillagerTrades$ItemListing> | ✘ |
 | addTrade | VillagerProfession, int, TradeItem[], TradeItem |  | SimpleTrade | ✘ |
 | addTrade | VillagerProfession, int, T extends VillagerTrades$ItemListing |  | T extends VillagerTrades$ItemListing | ✘ |
+| getTrades | VillagerProfession, int |  | List<VillagerTrades$ItemListing> | ✘ |
 | removeVanillaTrades | VillagerProfession[], IntRange |  | void | ✘ |
 | removeVanillaTrades |  |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
-| cancel | Object |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -58,24 +58,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `exit` denotes a `default` outcome.
 ```
 
-- `Object cancel(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Cancels the event with the given exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -92,6 +74,24 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
+```
+
+- `Object cancel(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
 ```
 
 

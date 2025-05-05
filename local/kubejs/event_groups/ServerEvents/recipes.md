@@ -33,35 +33,35 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
+| runInParallel | Runnable |  | void | ✔ |
+| runInParallel | Callable<T> |  | T | ✔ |
+| countRecipes | RecipeFilter |  | int | ✘ |
+| customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
+| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
+| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
+| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
+| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
+| printAllTypes |  |  | void | ✘ |
+| setItemErrors | boolean |  | void | ✘ |
+| printExamples | String |  | void | ✘ |
+| handler$zbf000$modify_HammerLib | RecipeManager, Map, CallbackInfo |  | void | ✘ |
 | remove | RecipeFilter |  | void | ✘ |
 | stage | RecipeFilter, String |  | void | ✘ |
 | custom | JsonObject |  | RecipeJS | ✘ |
-| handler$zbf000$modify_HammerLib | RecipeManager, Map, CallbackInfo |  | void | ✘ |
+| printTypes |  |  | void | ✘ |
+| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
+| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
 | getRecipes |  |  | Map<String, Object> | ✘ |
 | addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
-| runInParallel | Callable<T> |  | T | ✔ |
-| runInParallel | Runnable |  | void | ✔ |
-| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
-| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
-| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
-| countRecipes | RecipeFilter |  | int | ✘ |
-| customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
-| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
-| setItemErrors | boolean |  | void | ✘ |
-| printAllTypes |  |  | void | ✘ |
-| printExamples | String |  | void | ✘ |
-| printTypes |  |  | void | ✘ |
 | containsRecipe | RecipeFilter |  | boolean | ✘ |
-| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
-| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
 | takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
-| cancel | Object |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -84,24 +84,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `exit` denotes a `default` outcome.
 ```
 
-- `Object cancel(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Cancels the event with the given exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -118,6 +100,24 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
+```
+
+- `Object cancel(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
 ```
 
 

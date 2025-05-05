@@ -25,21 +25,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getItem |  |  | ItemStack | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getFacing |  |  | Direction | ✘ |
-| getEntity |  |  | Entity | ✘ |
 | getHand |  |  | InteractionHand | ✘ |
-| addGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
+| getEntity |  |  | Entity | ✘ |
+| getFacing |  |  | Direction | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| addGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
-| cancel | Object |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -54,9 +54,9 @@ The position of the block that was right clicked.
 The block that was right clicked.
 ```
 
-- `Direction getFacing()`
+- `InteractionHand getHand()`
 ```
-The face of the block being right clicked.
+The hand that was used to right click the block.
 ```
 
 - `Entity getEntity()`
@@ -64,9 +64,18 @@ The face of the block being right clicked.
 The player that right clicked the block.
 ```
 
-- `InteractionHand getHand()`
+- `Direction getFacing()`
 ```
-The hand that was used to right click the block.
+The face of the block being right clicked.
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`
@@ -87,15 +96,6 @@ Adds the specified game stage to the player
 Checks if the player has the specified game stage
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
 - `Object exit(Object var0)`
 
   Parameters:
@@ -114,24 +114,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `exit` denotes a `default` outcome.
 ```
 
-- `Object cancel(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Cancels the event with the given exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -148,6 +130,24 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
+```
+
+- `Object cancel(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
 ```
 
 

@@ -51,6 +51,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "mekanismcovers": {
+    "cover_component": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -125,15 +128,12 @@
   "mysticalagradditions": {
     "infused_farmland": true
   },
+  "pipez": {
+    "pipe": true
+  },
   "mysticalagriculture": {
     "infused_farmland": true,
     "crop": true,
     "inferium_crop": true
-  },
-  "storagedrawers": {
-    "display.stacklimit": true,
-    "main": true,
-    "display.content": true,
-    "display.status": true
   }
 }
