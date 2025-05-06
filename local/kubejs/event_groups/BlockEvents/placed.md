@@ -23,9 +23,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getEntity |  |  | Entity | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getEntity |  |  | Entity | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -38,6 +38,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
+- `Entity getEntity()`
+```
+The entity that placed the block. Can be `null`, e.g. when a block is placed by a dispenser.
+```
+
 - `Level getLevel()`
 ```
 The level of the block that was placed.
@@ -46,11 +51,6 @@ The level of the block that was placed.
 - `BlockContainerJS getBlock()`
 ```
 The block that is placed.
-```
-
-- `Entity getEntity()`
-```
-The entity that placed the block. Can be `null`, e.g. when a block is placed by a dispenser.
 ```
 
 - `Object exit(Object var0)`

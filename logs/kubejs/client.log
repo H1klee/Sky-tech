@@ -1,24 +1,25 @@
-[00:10:22] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[00:10:22] [INIT] Loaded plugins:
-[00:10:22] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[00:10:22] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[00:10:22] [INIT] - com.almostreliable.morejs.Plugin
-[00:10:22] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[00:10:22] [INIT] - com.bobvaraioa.kubejspowah.KubeJSPowahPlugin
-[00:10:22] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[00:10:22] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[00:10:22] [INIT] - com.probejs.ProbeJSPlugin
-[00:10:22] [INIT] - com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
-[00:10:22] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[00:10:22] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
-[00:10:22] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[00:10:22] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[00:10:22] [INIT] - com.bobvarioa.kubejsreiruntime.integrations.kube.KubePlugin
-[00:10:22] [INIT] - net.yxiao233.ifeu.common.compact.kubejs.ModKubeJSPlugin
-[00:10:22] [INIT] - thelm.jaopca.compat.kubejs.JAOPCAKubeJSPlugin
-[00:10:22] [INIT] - dev.sorin.kubejsextendedcrafting.KubejsExtendedCraftingPlugin
-[00:10:22] [INIT] - novamachina.exnihilosequentia.common.compat.kubejs.KubeJSExNihiloPlugin
-[00:10:23] [INFO] example.js#5: Hello, World! (Loaded client scripts)
-[00:10:23] [INFO] Loaded script client_scripts:example.js in 0.0 s
-[00:10:23] [INFO] Loaded 1/1 KubeJS client scripts in 0.092 s with 0 errors and 0 warnings
-[00:10:28] [INFO] Client resource reload complete!
+[01:41:07] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[01:41:07] [INIT] Loaded plugins:
+[01:41:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[01:41:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[01:41:07] [INIT] - com.almostreliable.morejs.Plugin
+[01:41:07] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[01:41:07] [INIT] - com.bobvaraioa.kubejspowah.KubeJSPowahPlugin
+[01:41:07] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[01:41:07] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[01:41:07] [INIT] - com.probejs.ProbeJSPlugin
+[01:41:07] [INIT] - com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
+[01:41:07] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[01:41:07] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[01:41:07] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[01:41:07] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[01:41:07] [INIT] - com.bobvarioa.kubejsreiruntime.integrations.kube.KubePlugin
+[01:41:07] [INIT] - net.yxiao233.ifeu.common.compact.kubejs.ModKubeJSPlugin
+[01:41:07] [INIT] - thelm.jaopca.compat.kubejs.JAOPCAKubeJSPlugin
+[01:41:07] [INIT] - dev.sorin.kubejsextendedcrafting.KubejsExtendedCraftingPlugin
+[01:41:07] [INIT] - novamachina.exnihilosequentia.common.compat.kubejs.KubeJSExNihiloPlugin
+[01:41:07] [INFO] example.js#5: Hello, World! (Loaded client scripts)
+[01:41:07] [INFO] Loaded script client_scripts:example.js in 0.001 s
+[01:41:07] [INFO] Loaded 1/1 KubeJS client scripts in 0.031 s with 0 errors and 0 warnings
+[01:41:10] [INFO] Client resource reload complete!
+[01:41:26] [INFO] Client resource reload complete!

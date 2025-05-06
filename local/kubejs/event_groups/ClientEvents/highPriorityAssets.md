@@ -20,14 +20,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| add | ResourceLocation, JsonElement |  | void | ✘ |
-| addMultipartBlockState | ResourceLocation, Consumer<MultipartBlockStateGenerator> |  | void | ✘ |
-| defaultHandheldItemModel | ResourceLocation |  | void | ✘ |
-| stencil | ResourceLocation, String, JsonObject |  | void | ✘ |
 | addModel | String, ResourceLocation, Consumer<ModelGenerator> |  | void | ✘ |
+| add | ResourceLocation, JsonElement |  | void | ✘ |
+| stencil | ResourceLocation, String, JsonObject |  | void | ✘ |
 | addLang | String, String |  | void | ✘ |
 | addBlockState | ResourceLocation, Consumer<VariantBlockStateGenerator> |  | void | ✘ |
+| addMultipartBlockState | ResourceLocation, Consumer<MultipartBlockStateGenerator> |  | void | ✘ |
 | defaultItemModel | ResourceLocation |  | void | ✘ |
+| defaultHandheldItemModel | ResourceLocation |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

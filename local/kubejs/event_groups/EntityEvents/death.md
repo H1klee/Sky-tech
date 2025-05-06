@@ -25,8 +25,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getEntity |  |  | Entity | ✘ |
 | getSource |  |  | DamageSource | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -40,14 +40,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
+- `Entity getEntity()`
+```
+The entity that dies.
+```
+
 - `DamageSource getSource()`
 ```
 The damage source that triggers the death.
-```
-
-- `LivingEntity getEntity()`
-```
-The entity that dies.
 ```
 
 - `Object exit(Object var0)`

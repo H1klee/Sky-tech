@@ -33,29 +33,29 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| remove | RecipeFilter |  | void | ✘ |
-| stage | RecipeFilter, String |  | void | ✘ |
-| custom | JsonObject |  | RecipeJS | ✘ |
-| handler$zbf000$modify_HammerLib | RecipeManager, Map, CallbackInfo |  | void | ✘ |
-| getRecipes |  |  | Map<String, Object> | ✘ |
+| containsRecipe | RecipeFilter |  | boolean | ✘ |
+| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
 | addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
+| getRecipes |  |  | Map<String, Object> | ✘ |
+| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
+| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
+| remove | RecipeFilter |  | void | ✘ |
+| custom | JsonObject |  | RecipeJS | ✘ |
+| printTypes |  |  | void | ✘ |
+| stage | RecipeFilter, String |  | void | ✘ |
+| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
 | runInParallel | Callable<T> |  | T | ✔ |
 | runInParallel | Runnable |  | void | ✔ |
-| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
-| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
-| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
-| countRecipes | RecipeFilter |  | int | ✘ |
+| handler$zbf000$modify_HammerLib | RecipeManager, Map, CallbackInfo |  | void | ✘ |
 | customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
+| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
+| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
+| countRecipes | RecipeFilter |  | int | ✘ |
+| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
 | findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
-| setItemErrors | boolean |  | void | ✘ |
 | printAllTypes |  |  | void | ✘ |
 | printExamples | String |  | void | ✘ |
-| printTypes |  |  | void | ✘ |
-| containsRecipe | RecipeFilter |  | boolean | ✘ |
-| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
-| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
-| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
+| setItemErrors | boolean |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

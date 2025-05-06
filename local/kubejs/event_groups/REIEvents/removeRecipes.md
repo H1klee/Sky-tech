@@ -19,11 +19,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| remove | ResourceLocation, ResourceLocation[] |  | void | ✘ |
-| getCategoryIds |  |  | Collection<ResourceLocation> | ✘ |
 | getDisplaysFor | ResourceLocation |  | List<?> | ✘ |
 | removeFromAll | ResourceLocation[] |  | void | ✘ |
+| getCategoryIds |  |  | Collection<ResourceLocation> | ✘ |
 | getCategories |  |  | CategoryRegistry | ✘ |
+| remove | ResourceLocation, ResourceLocation[] |  | void | ✘ |
 | getDisplays |  |  | DisplayRegistry | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

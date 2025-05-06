@@ -25,10 +25,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getDetectorId |  |  | String | ✘ |
+| isPowered |  |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| isPowered |  |  | boolean | ✘ |
-| getDetectorId |  |  | String | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -40,6 +40,16 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
+- `String getDetectorId()`
+```
+The id of the detector block when it was registered.
+```
+
+- `boolean isPowered()`
+```
+If the detector block is powered.
+```
+
 - `Level getLevel()`
 ```
 The level where the detector block is located.
@@ -48,16 +58,6 @@ The level where the detector block is located.
 - `BlockContainerJS getBlock()`
 ```
 The detector block.
-```
-
-- `boolean isPowered()`
-```
-If the detector block is powered.
-```
-
-- `String getDetectorId()`
-```
-The id of the detector block when it was registered.
 ```
 
 - `Object exit(Object var0)`

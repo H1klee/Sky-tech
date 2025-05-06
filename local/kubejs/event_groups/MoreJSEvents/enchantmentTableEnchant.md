@@ -23,15 +23,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getCosts |  |  | int | ✘ |
 | getEnchantmentIds |  |  | List<ResourceLocation> | ✘ |
 | getClickedButton |  |  | int | ✘ |
+| itemWasChanged |  |  | boolean | ✘ |
+| setItem | ItemStack |  | void | ✘ |
 | get | int |  | Data | ✘ |
 | getSize |  |  | int | ✘ |
 | getPosition |  |  | BlockPos | ✘ |
-| setItem | ItemStack |  | void | ✘ |
-| itemWasChanged |  |  | boolean | ✘ |
+| getSecondItem |  |  | ItemStack | ✘ |
 | getItem |  |  | ItemStack | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
-| getSecondItem |  |  | ItemStack | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

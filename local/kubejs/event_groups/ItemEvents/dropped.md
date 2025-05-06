@@ -23,13 +23,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getItem |  |  | ItemStack | ✘ |
-| getEntity |  |  | Entity | ✘ |
 | getItemEntity |  |  | ItemEntity | ✘ |
-| addGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
+| getItem |  |  | ItemStack | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -42,28 +42,19 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `ItemStack getItem()`
-```
-The item that was dropped.
-```
-
-- `Entity getEntity()`
-```
-The player that dropped the item.
-```
-
 - `ItemEntity getItemEntity()`
 ```
 The item entity that was spawned when dropping.
 ```
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `LivingEntity getEntity()`
 ```
-Adds the specified game stage to the player
+The player that dropped the item.
+```
+
+- `ItemStack getItem()`
+```
+The item that was dropped.
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -73,6 +64,15 @@ Adds the specified game stage to the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`

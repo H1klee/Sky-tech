@@ -19,14 +19,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getEnchantments |  |  | List<Enchantment> | ✘ |
+| getEntity |  |  | AbstractVillager | ✘ |
+| getRandom |  |  | RandomSource | ✘ |
 | add | Enchantment[] |  | void | ✘ |
 | remove | Enchantment[] |  | void | ✘ |
-| getEntity |  |  | AbstractVillager | ✘ |
-| getEnchantments |  |  | List<Enchantment> | ✘ |
-| printEnchantments |  |  | void | ✘ |
-| isWanderer |  |  | boolean | ✘ |
 | isVillager |  |  | boolean | ✘ |
-| getRandom |  |  | RandomSource | ✘ |
+| isWanderer |  |  | boolean | ✘ |
+| printEnchantments |  |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |

@@ -19,8 +19,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| register | Ingredient, String, ClampedItemPropertyFunction |  | void | ✘ |
 | registerAll | String, ClampedItemPropertyFunction |  | void | ✘ |
+| register | Ingredient, String, ClampedItemPropertyFunction |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
@@ -30,6 +30,16 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 
 ### Documented members:
+
+- `void registerAll(String var0, ClampedItemPropertyFunction var1)`
+
+  Parameters:
+  - var0: String
+  - var1: ClampedItemPropertyFunction
+
+```
+Register a model property for all items.
+```
 
 - `void register(Ingredient var0, String var1, ClampedItemPropertyFunction var2)`
 
@@ -42,16 +52,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Register a model property for an item. Model properties are used to change the appearance of an item in the world.
 
 More about model properties: https://minecraft.fandom.com/wiki/Model#Item_predicates
-```
-
-- `void registerAll(String var0, ClampedItemPropertyFunction var1)`
-
-  Parameters:
-  - var0: String
-  - var1: ClampedItemPropertyFunction
-
-```
-Register a model property for all items.
 ```
 
 - `Object exit(Object var0)`

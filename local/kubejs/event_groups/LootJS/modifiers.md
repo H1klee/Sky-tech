@@ -19,16 +19,16 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| enableLogging |  |  | void | ✘ |
 | addBlockLootModifier | Object |  | LootActionsBuilderJS | ✘ |
+| enableLogging |  |  | void | ✘ |
 | disableLootModification | ResourceLocationFilter[] |  | void | ✘ |
+| addLootTableModifier | ResourceLocationFilter[] |  | LootActionsBuilderJS | ✘ |
+| addLootTypeModifier | LootContextType[] |  | LootActionsBuilderJS | ✘ |
 | addEntityLootModifier | EntityType<?>[] |  | LootActionsBuilderJS | ✘ |
+| disableWitherStarDrop |  |  | void | ✘ |
+| disableCreeperHeadDrop |  |  | void | ✘ |
 | disableSkeletonHeadDrop |  |  | void | ✘ |
 | disableZombieHeadDrop |  |  | void | ✘ |
-| addLootTableModifier | ResourceLocationFilter[] |  | LootActionsBuilderJS | ✘ |
-| disableWitherStarDrop |  |  | void | ✘ |
-| addLootTypeModifier | LootContextType[] |  | LootActionsBuilderJS | ✘ |
-| disableCreeperHeadDrop |  |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

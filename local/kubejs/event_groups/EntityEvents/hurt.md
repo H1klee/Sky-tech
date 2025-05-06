@@ -23,8 +23,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getEntity |  |  | Entity | ✘ |
 | getSource |  |  | DamageSource | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
 | getDamage |  |  | float | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
@@ -39,14 +39,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
+- `Entity getEntity()`
+```
+The entity that was hurt.
+```
+
 - `DamageSource getSource()`
 ```
 The damage source.
-```
-
-- `LivingEntity getEntity()`
-```
-The entity that was hurt.
 ```
 
 - `float getDamage()`

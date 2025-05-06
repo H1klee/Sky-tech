@@ -20,12 +20,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getException |  |  | Throwable | ✘ |
-| getInput |  |  | String | ✘ |
+| getCommandName |  |  | String | ✘ |
 | getParseResults |  |  | ParseResults<CommandSourceStack> | ✘ |
 | setParseResults | ParseResults<CommandSourceStack> |  | void | ✘ |
 | setException | Throwable |  | void | ✘ |
-| getCommandName |  |  | String | ✘ |
+| getException |  |  | Throwable | ✘ |
+| getInput |  |  | String | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

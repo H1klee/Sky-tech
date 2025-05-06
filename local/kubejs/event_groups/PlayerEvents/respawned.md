@@ -25,13 +25,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getEntity |  |  | Entity | ✘ |
 | getKeepData |  |  | boolean | ✘ |
 | getOldPlayer |  |  | ServerPlayer | ✘ |
-| addGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -44,11 +44,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `Entity getEntity()`
-```
-Gets the player that respawned.
-```
-
 - `boolean getKeepData()`
 ```
 Gets whether the player's data was kept, e.g. when returning from the end.
@@ -59,13 +54,9 @@ Gets whether the player's data was kept, e.g. when returning from the end.
 Gets the player that was before respawn. Note that this entity is already removed from the world.
 ```
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `LivingEntity getEntity()`
 ```
-Adds the specified game stage to the player
+Gets the player that respawned.
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -75,6 +66,15 @@ Adds the specified game stage to the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`

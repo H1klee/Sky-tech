@@ -22,9 +22,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getType |  |  | String | ✘ |
 | addChest | ResourceLocation, Consumer<LootBuilder> |  | void | ✘ |
 | getDirectory |  |  | String | ✘ |
+| addJson | ResourceLocation, JsonObject |  | void | ✘ |
 | removeAll |  |  | void | ✘ |
 | modify | ResourceLocation, Consumer<LootBuilder> |  | void | ✘ |
-| addJson | ResourceLocation, JsonObject |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

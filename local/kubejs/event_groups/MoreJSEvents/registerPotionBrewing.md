@@ -19,13 +19,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| addContainerRecipe | Item, Ingredient, Item |  | void | ✘ |
-| validateContainer | Item, Ingredient, Item |  | void | ✘ |
 | addCustomBrewing | Ingredient, Ingredient, ItemStack |  | void | ✘ |
 | addPotionBrewing | Ingredient, Potion |  | void | ✘ |
 | addPotionBrewing | Ingredient, Potion, Potion |  | void | ✘ |
 | removeByPotion | Potion, Ingredient, Potion |  | void | ✘ |
 | removeContainer | Ingredient |  | void | ✘ |
+| validateContainer | Item, Ingredient, Item |  | void | ✘ |
+| addContainerRecipe | Item, Ingredient, Item |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

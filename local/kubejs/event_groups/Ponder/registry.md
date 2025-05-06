@@ -19,8 +19,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| create | Ingredient |  | PonderBuilderJS | ✘ |
 | printParticleNames |  |  | void | ✘ |
+| create | Ingredient |  | PonderBuilderJS | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

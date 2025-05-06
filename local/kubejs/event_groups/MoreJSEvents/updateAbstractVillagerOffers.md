@@ -19,21 +19,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getEntity |  |  | LivingEntity | ✘ |
-| getOffers |  |  | MerchantOffers | ✘ |
-| getVillagerTrades | VillagerProfession, int |  | List<VillagerTrades$ItemListing> | ✘ |
-| getVillagerTrades | VillagerProfession |  | List<VillagerTrades$ItemListing> | ✘ |
-| getWandererTrades | int |  | List<VillagerTrades$ItemListing> | ✘ |
-| getWandererTrades |  |  | List<VillagerTrades$ItemListing> | ✘ |
-| deleteAddedOffers |  |  | void | ✘ |
+| getVillagerData |  |  | VillagerData | ✘ |
 | getUsedTrades |  |  | List<VillagerTrades$ItemListing> | ✘ |
 | getAddedOffers |  |  | Collection<MerchantOffer> | ✘ |
-| getVillagerData |  |  | VillagerData | ✘ |
+| deleteAddedOffers |  |  | void | ✘ |
 | addRandomOffer | List<VillagerTrades$ItemListing> |  | MerchantOffer | ✘ |
 | addRandomOffer |  |  | MerchantOffer | ✘ |
+| getVillagerTrades | VillagerProfession |  | List<VillagerTrades$ItemListing> | ✘ |
+| getVillagerTrades | VillagerProfession, int |  | List<VillagerTrades$ItemListing> | ✘ |
+| getWandererTrades | int |  | List<VillagerTrades$ItemListing> | ✘ |
+| getWandererTrades |  |  | List<VillagerTrades$ItemListing> | ✘ |
+| getOffers |  |  | MerchantOffers | ✘ |
 | invokeEvent | AbstractVillager, MerchantOffers, ItemListing[], List<MerchantOffer> |  | void | ✔ |
-| isWanderer |  |  | boolean | ✘ |
+| getEntity |  |  | Entity | ✘ |
 | isVillager |  |  | boolean | ✘ |
+| isWanderer |  |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |

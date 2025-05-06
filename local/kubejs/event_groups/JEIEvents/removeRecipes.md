@@ -19,9 +19,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| remove | ResourceLocation, ResourceLocation[] |  | void | ✘ |
 | getCategoryIds |  |  | Collection<ResourceLocation> | ✘ |
 | getCategories |  |  | Collection<IRecipeCategory> | ✘ |
+| remove | ResourceLocation, ResourceLocation[] |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

@@ -20,9 +20,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getMachine | ResourceLocation |  | MBDMachineDefinition | ✘ |
 | create | String, ResourceLocation |  | Builder | ✘ |
 | removeMachine | ResourceLocation |  | void | ✘ |
-| getMachine | ResourceLocation |  | MBDMachineDefinition | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

@@ -23,13 +23,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getItem |  |  | ItemStack | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
 | getInventory |  |  | InventoryKJS | ✘ |
-| addGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
+| getItem |  |  | ItemStack | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -42,9 +42,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `ItemStack getItem()`
+- `InventoryKJS getInventory()`
 ```
-The item that was crafted.
+The inventory that the item was crafted in.
 ```
 
 - `LivingEntity getEntity()`
@@ -52,18 +52,9 @@ The item that was crafted.
 The player that crafted the item.
 ```
 
-- `InventoryKJS getInventory()`
+- `ItemStack getItem()`
 ```
-The inventory that the item was crafted in.
-```
-
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
+The item that was crafted.
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -73,6 +64,15 @@ Adds the specified game stage to the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`

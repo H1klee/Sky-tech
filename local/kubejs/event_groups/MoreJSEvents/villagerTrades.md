@@ -19,17 +19,17 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| removeTrades | TradeFilter |  | void | ✘ |
-| removeModdedTrades | VillagerProfession[], IntRange |  | void | ✘ |
-| removeModdedTrades |  |  | void | ✘ |
-| forEachTrades | VillagerProfession[], IntRange, Consumer<List<VillagerTrades$ItemListing>> |  | void | ✘ |
-| forEachTrades | ForEachCallback |  | void | ✘ |
 | addCustomTrade | VillagerProfession, int, Transformer |  | void | ✘ |
+| removeTrades | TradeFilter |  | void | ✘ |
+| forEachTrades | ForEachCallback |  | void | ✘ |
+| forEachTrades | VillagerProfession[], IntRange, Consumer<List<VillagerTrades$ItemListing>> |  | void | ✘ |
+| removeVanillaTrades | VillagerProfession[], IntRange |  | void | ✘ |
+| removeVanillaTrades |  |  | void | ✘ |
+| removeModdedTrades |  |  | void | ✘ |
+| removeModdedTrades | VillagerProfession[], IntRange |  | void | ✘ |
 | getTrades | VillagerProfession, int |  | List<VillagerTrades$ItemListing> | ✘ |
 | addTrade | VillagerProfession, int, TradeItem[], TradeItem |  | SimpleTrade | ✘ |
 | addTrade | VillagerProfession, int, T extends VillagerTrades$ItemListing |  | T extends VillagerTrades$ItemListing | ✘ |
-| removeVanillaTrades | VillagerProfession[], IntRange |  | void | ✘ |
-| removeVanillaTrades |  |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

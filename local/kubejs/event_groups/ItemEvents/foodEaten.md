@@ -23,8 +23,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getItem |  |  | ItemStack | ✘ |
 | getEntity |  |  | Entity | ✘ |
+| getItem |  |  | ItemStack | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -38,14 +38,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `ItemStack getItem()`
-```
-The food that was eaten.
-```
-
 - `Entity getEntity()`
 ```
 The entity that ate the food.
+```
+
+- `ItemStack getItem()`
+```
+The food that was eaten.
 ```
 
 - `Object exit(Object var0)`

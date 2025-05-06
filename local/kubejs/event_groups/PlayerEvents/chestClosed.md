@@ -25,14 +25,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getBlock |  |  | BlockContainerJS | ✘ |
 | getInventory |  |  | Container | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
+| getBlock |  |  | BlockContainerJS | ✘ |
 | getInventoryContainer |  |  | AbstractContainerMenu | ✘ |
-| addGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -45,19 +45,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `BlockContainerJS getBlock()`
-```
-Gets the chest block.
-```
-
 - `Container getInventory()`
 ```
 Gets the chest inventory.
 ```
 
-- `LivingEntity getEntity()`
+- `BlockContainerJS getBlock()`
 ```
-Gets the player that opened or closed the container.
+Gets the chest block.
 ```
 
 - `AbstractContainerMenu getInventoryContainer()`
@@ -65,13 +60,9 @@ Gets the player that opened or closed the container.
 Gets the container that was opened or closed.
 ```
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `LivingEntity getEntity()`
 ```
-Adds the specified game stage to the player
+Gets the player that opened or closed the container.
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -81,6 +72,15 @@ Adds the specified game stage to the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`

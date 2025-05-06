@@ -25,13 +25,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| add | Ingredient, Object |  | void | ✘ |
-| isShift |  |  | boolean | ✘ |
-| isAlt |  |  | boolean | ✘ |
-| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
 | addToAll | Object |  | void | ✘ |
 | addAdvanced | Ingredient, StaticTooltipHandlerFromJS |  | void | ✘ |
+| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
 | isCtrl |  |  | boolean | ✘ |
+| isAlt |  |  | boolean | ✘ |
+| isShift |  |  | boolean | ✘ |
+| add | Ingredient, Object |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
@@ -41,35 +41,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 
 ### Documented members:
-
-- `void add(Ingredient var0, Object var1)`
-
-  Parameters:
-  - var0: Ingredient
-  - var1: Object
-
-```
-Adds text to all items matching the ingredient.
-```
-
-- `boolean isShift()`
-```
-Is shift key pressed.
-```
-
-- `boolean isAlt()`
-```
-Is alt key pressed.
-```
-
-- `void addAdvancedToAll(StaticTooltipHandlerFromJS var0)`
-
-  Parameters:
-  - var0: StaticTooltipHandlerFromJS
-
-```
-Adds a dynamic tooltip handler to all items.
-```
 
 - `void addToAll(Object var0)`
 
@@ -90,9 +61,38 @@ Adds text to all items.
 Adds a dynamic tooltip handler to all items matching the ingredient.
 ```
 
+- `void addAdvancedToAll(StaticTooltipHandlerFromJS var0)`
+
+  Parameters:
+  - var0: StaticTooltipHandlerFromJS
+
+```
+Adds a dynamic tooltip handler to all items.
+```
+
 - `boolean isCtrl()`
 ```
 Is control key pressed.
+```
+
+- `boolean isAlt()`
+```
+Is alt key pressed.
+```
+
+- `boolean isShift()`
+```
+Is shift key pressed.
+```
+
+- `void add(Ingredient var0, Object var1)`
+
+  Parameters:
+  - var0: Ingredient
+  - var1: Object
+
+```
+Adds text to all items matching the ingredient.
 ```
 
 - `Object exit(Object var0)`

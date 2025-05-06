@@ -1,0 +1,795 @@
+{
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2025-03-30 23:03:07 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-30 23:03:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-03-30 23:03:17 +0300"
+    },
+    "done": false
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_tick_gen_mana_2": {
+    "criteria": {
+      "criterion0": "2025-03-30 23:20:03 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_gen_mana": {
+    "criteria": {
+      "criterion2": "2025-03-30 23:20:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-03-30 23:21:54 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_flower_64x": {
+    "criteria": {
+      "criterion2": "2025-03-30 23:21:54 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_flower_4x": {
+    "criteria": {
+      "criterion2": "2025-03-30 23:21:54 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_flower_16x": {
+    "criteria": {
+      "criterion2": "2025-03-30 23:21:54 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_flower_32x": {
+    "criteria": {
+      "criterion2": "2025-03-30 23:21:54 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_storage_mana_1": {
+    "criteria": {
+      "criterion2": "2025-03-30 23:22:17 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_storage_energy_1": {
+    "criteria": {
+      "criterion2": "2025-03-30 23:22:17 +0300"
+    },
+    "done": true
+  },
+  "botania:main/generating_flower": {
+    "criteria": {
+      "flower": "2025-03-30 23:24:09 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_gourmaryllis": {
+    "criteria": {
+      "has_item": "2025-03-30 23:24:09 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_storage_energy_3": {
+    "criteria": {
+      "criterion1": "2025-03-30 23:31:26 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_cost_energy": {
+    "criteria": {
+      "criterion2": "2025-03-30 23:31:26 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_heat_greenhouse": {
+    "criteria": {
+      "criterion1": "2025-03-30 23:31:26 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_storage_energy_2": {
+    "criteria": {
+      "criterion1": "2025-03-30 23:31:29 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_storage_mana_3": {
+    "criteria": {
+      "criterion1": "2025-03-30 23:31:36 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_storage_mana_2": {
+    "criteria": {
+      "criterion1": "2025-03-30 23:31:37 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/catalyst_petal_block": {
+    "criteria": {
+      "criterion0": "2025-03-30 23:43:37 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/catalyst_mana_infinity": {
+    "criteria": {
+      "criterion2": "2025-03-30 23:43:48 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/catalyst_living_rock_infinity": {
+    "criteria": {
+      "criterion0": "2025-03-30 23:45:15 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/catalyst_stone_infinity": {
+    "criteria": {
+      "criterion0": "2025-03-30 23:45:15 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/catalyst_seed_infinity": {
+    "criteria": {
+      "criterion0": "2025-03-30 23:45:15 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/catalyst_petal": {
+    "criteria": {
+      "criterion2": "2025-03-30 23:45:15 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/catalyst_wood_infinity": {
+    "criteria": {
+      "criterion0": "2025-03-30 23:45:15 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/catalyst_water_infinity": {
+    "criteria": {
+      "criterion0": "2025-03-30 23:45:15 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/catalyst_speed": {
+    "criteria": {
+      "criterion0": "2025-03-30 23:45:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-30 23:46:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-03-30 23:46:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-03-30 23:46:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2025-03-30 23:46:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2025-03-30 23:46:01 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/livingrock_wall": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_axe": {
+    "criteria": {
+      "has_material": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/diluted_pool": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_shovel": {
+    "criteria": {
+      "has_material": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/livingrock_slab": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/white_pavement": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/yellow_pavement": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_hoe": {
+    "criteria": {
+      "has_material": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_shears": {
+    "criteria": {
+      "has_material": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_void": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/polished_livingrock": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/green_pavement": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/mana_detector": {
+    "criteria": {
+      "has_alt_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_pool": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/apothecary_livingrock": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botanicalmachinery:recipes/misc/runic_altar": {
+    "criteria": {
+      "criterion0": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/blue_pavement": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/livingrock_stairs": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/red_pavement": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/black_pavement": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/livingrock_slate": {
+    "criteria": {
+      "has_item": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "botanicalmachinery:recipes/misc/mana_tablet": {
+    "criteria": {
+      "criterion0": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_pickaxe": {
+    "criteria": {
+      "has_material": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_sword": {
+    "criteria": {
+      "has_material": "2025-03-30 23:49:34 +0300"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/ex_molecular_assembler": {
+    "criteria": {
+      "has_item": "2025-03-30 23:59:43 +0300"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/wireless_connector": {
+    "criteria": {
+      "has_item": "2025-03-31 00:00:30 +0300"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/ei_alt": {
+    "criteria": {
+      "has_item": "2025-03-31 00:00:31 +0300"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/ei": {
+    "criteria": {
+      "has_item": "2025-03-31 00:00:31 +0300"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/epp_alt": {
+    "criteria": {
+      "has_item": "2025-03-31 00:00:33 +0300"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/epp": {
+    "criteria": {
+      "has_item": "2025-03-31 00:00:33 +0300"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/epa": {
+    "criteria": {
+      "has_item": "2025-03-31 00:00:58 +0300"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/wireless_ex_pat": {
+    "criteria": {
+      "has_item": "2025-03-31 00:00:58 +0300"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/ex_inscriber": {
+    "criteria": {
+      "has_item": "2025-03-31 00:02:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-04-09 20:10:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-04-09 20:10:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-04-09 20:10:23 +0300"
+    },
+    "done": true
+  },
+  "exmachinis:flux_compactor": {
+    "criteria": {
+      "has_flux_compactor": "2025-04-18 21:37:39 +0300"
+    },
+    "done": true
+  },
+  "exmachinis:netherite_upgrade": {
+    "criteria": {
+      "has_netherite_upgrade": "2025-04-18 21:37:44 +0300"
+    },
+    "done": true
+  },
+  "constructionwand:recipes/tools/stone_wand": {
+    "criteria": {
+      "has_item": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2025-04-18 21:38:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-04-18 21:38:51 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/red_string_container": {
+    "criteria": {
+      "has_base_block": "2025-04-18 21:39:07 +0300"
+    },
+    "done": true
+  },
+  "botanicalextramachinery:recipes/misc/upgrade_slot_add": {
+    "criteria": {
+      "criterion2": "2025-04-18 21:39:07 +0300"
+    },
+    "done": true
+  },
+  "exmachinis:flux_sieve": {
+    "criteria": {
+      "has_flux_sieve": "2025-04-18 21:39:37 +0300"
+    },
+    "done": true
+  },
+  "exmachinis:flux_hammer": {
+    "criteria": {
+      "has_flux_hammer": "2025-04-18 21:39:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-04-18 21:51:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-04-18 21:51:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-04-18 22:31:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-04-18 22:39:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-04-18 22:39:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2025-04-18 22:41:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-04-18 22:41:39 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

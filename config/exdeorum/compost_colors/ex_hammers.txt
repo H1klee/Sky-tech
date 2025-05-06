@@ -1,0 +1,3 @@
+// Compost colors for ex_hammers. You may add your own colors, change existing ones, or remove colors that aren't needed.
+grass_seed, #5ac05a
+plant_fiber, #ffffff

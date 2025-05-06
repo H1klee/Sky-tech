@@ -22,10 +22,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | add | Enchantment[] |  | void | ✘ |
 | remove | Enchantment[] |  | void | ✘ |
 | getItem |  |  | ItemStack | ✘ |
+| getEnchantmentInstances |  |  | List<EnchantmentInstance> | ✘ |
+| printEnchantmentInstances |  |  | void | ✘ |
 | getPowerLevel |  |  | int | ✘ |
 | addWithLevel | Enchantment, int |  | void | ✘ |
-| printEnchantmentInstances |  |  | void | ✘ |
-| getEnchantmentInstances |  |  | List<EnchantmentInstance> | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

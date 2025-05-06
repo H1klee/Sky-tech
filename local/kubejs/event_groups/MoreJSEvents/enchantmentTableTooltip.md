@@ -20,14 +20,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getSlot |  |  | int | ✘ |
+| getLines |  |  | List<Object> | ✘ |
 | getRequiredLevel |  |  | int | ✘ |
 | getClue |  |  | EnchantmentInstance | ✘ |
 | getClueId |  |  | ResourceLocation | ✘ |
-| getLines |  |  | List<Object> | ✘ |
+| getSecondItem |  |  | ItemStack | ✘ |
 | getItem |  |  | ItemStack | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
-| getSecondItem |  |  | ItemStack | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

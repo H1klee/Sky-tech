@@ -23,8 +23,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getHeld |  |  | ItemStack | ✘ |
-| getHand |  |  | InteractionHand | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| getHand |  |  | InteractionHand | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

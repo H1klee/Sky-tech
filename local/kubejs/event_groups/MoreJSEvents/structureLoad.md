@@ -19,15 +19,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| invoke | StructureTemplate, ResourceLocation |  | void | ✔ |
-| getId |  |  | String | ✘ |
+| getStructureSize |  |  | Vec3i | ✘ |
+| getPalettesSize |  |  | int | ✘ |
+| getEntitiesSize |  |  | int | ✘ |
 | removePalette | int |  | void | ✘ |
 | forEachPalettes | Consumer<PaletteWrapper> |  | void | ✘ |
-| getEntitiesSize |  |  | int | ✘ |
-| getPalettesSize |  |  | int | ✘ |
-| getStructureSize |  |  | Vec3i | ✘ |
-| getEntities |  |  | EntityInfoWrapper | ✘ |
 | getPalette | int |  | PaletteWrapper | ✘ |
+| getEntities |  |  | EntityInfoWrapper | ✘ |
+| invoke | StructureTemplate, ResourceLocation |  | void | ✔ |
+| getId |  |  | String | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

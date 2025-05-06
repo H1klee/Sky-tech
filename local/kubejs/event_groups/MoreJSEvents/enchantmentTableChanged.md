@@ -19,15 +19,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| itemWasChanged |  |  | boolean | ✘ |
+| setItem | ItemStack |  | void | ✘ |
 | get | int |  | Data | ✘ |
 | getSize |  |  | int | ✘ |
 | getPosition |  |  | BlockPos | ✘ |
-| setItem | ItemStack |  | void | ✘ |
-| itemWasChanged |  |  | boolean | ✘ |
+| getSecondItem |  |  | ItemStack | ✘ |
 | getItem |  |  | ItemStack | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
-| getSecondItem |  |  | ItemStack | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

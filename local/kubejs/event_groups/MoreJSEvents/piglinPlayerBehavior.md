@@ -19,18 +19,18 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getEntity |  |  | LivingEntity | ✘ |
-| isIgnoreHoldingCheck |  |  | boolean | ✘ |
-| ignoreHoldingCheck |  |  | void | ✘ |
 | getBehavior |  |  | PiglinBehavior | ✘ |
-| setBehavior | PiglinBehavior |  | void | ✘ |
+| isIgnoreHoldingCheck |  |  | boolean | ✘ |
 | getPiglin |  |  | Piglin | ✘ |
 | isAggressiveAlready |  |  | boolean | ✘ |
 | getPreviousTargetPlayer |  |  | Player | ✘ |
-| addGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| setBehavior | PiglinBehavior |  | void | ✘ |
+| ignoreHoldingCheck |  |  | void | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -43,15 +43,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
-```
-
 - `boolean hasGameStage(String var0)`
 
   Parameters:
@@ -59,6 +50,15 @@ Adds the specified game stage to the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`

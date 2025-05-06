@@ -26,16 +26,16 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getEntity |  |  | Player | ✘ |
 | getMessage |  |  | String | ✘ |
-| getEntity |  |  | Entity | ✘ |
-| getUsername |  |  | String | ✘ |
 | getComponent |  |  | Component | ✘ |
 | setMessage | Component |  | void | ✘ |
 | setComponent | Component |  | void | ✘ |
-| addGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getUsername |  |  | String | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -48,19 +48,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `String getMessage()`
-```
-Gets the message that the player sent.
-```
-
-- `Entity getEntity()`
+- `Player getEntity()`
 ```
 Gets the player that sent the message.
 ```
 
-- `String getUsername()`
+- `String getMessage()`
 ```
-Gets the username of the player that sent the message.
+Gets the message that the player sent.
 ```
 
 - `Component getComponent()`
@@ -86,13 +81,9 @@ Sets the message that the player sent.
 Sets the message that the player sent.
 ```
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `String getUsername()`
 ```
-Adds the specified game stage to the player
+Gets the username of the player that sent the message.
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -102,6 +93,15 @@ Adds the specified game stage to the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`

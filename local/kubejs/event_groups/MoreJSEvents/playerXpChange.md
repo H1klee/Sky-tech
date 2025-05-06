@@ -19,22 +19,22 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getExperienceProgress |  |  | float | ✘ |
+| setExperienceProgress | float |  | void | ✘ |
+| getExperienceLevel |  |  | int | ✘ |
+| setExperienceLevel | int |  | void | ✘ |
+| getTotalExperience |  |  | int | ✘ |
+| setTotalExperience | int |  | void | ✘ |
+| getXpNeededForNextLevel |  |  | int | ✘ |
+| getRemainingExperience |  |  | int | ✘ |
 | setAmount | int |  | void | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
-| getRemainingExperience |  |  | int | ✘ |
-| getExperienceProgress |  |  | float | ✘ |
-| getXpNeededForNextLevel |  |  | int | ✘ |
-| setExperienceProgress | float |  | void | ✘ |
-| willLevelUp |  |  | boolean | ✘ |
-| getTotalExperience |  |  | int | ✘ |
-| getExperienceLevel |  |  | int | ✘ |
-| setTotalExperience | int |  | void | ✘ |
-| setExperienceLevel | int |  | void | ✘ |
 | getAmount |  |  | int | ✘ |
-| addGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| willLevelUp |  |  | boolean | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -47,15 +47,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
-```
-
 - `boolean hasGameStage(String var0)`
 
   Parameters:
@@ -63,6 +54,15 @@ Adds the specified game stage to the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`

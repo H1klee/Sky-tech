@@ -19,11 +19,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| removeTag | PonderTag[] |  | void | ✘ |
 | add | PonderTag, Ingredient |  | void | ✘ |
 | remove | PonderTag, Ingredient |  | void | ✘ |
-| createTag | String, Item, String, String |  | void | ✘ |
 | createTag | String, Item, String, String, Ingredient |  | void | ✘ |
-| removeTag | PonderTag[] |  | void | ✘ |
+| createTag | String, Item, String, String |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
