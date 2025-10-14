@@ -1,2 +1,0 @@
-// Compost colors for jaopcaextras. You may add your own colors, change existing ones, or remove colors that aren't needed.
-extra_press, #ffffff

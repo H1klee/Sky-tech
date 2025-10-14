@@ -1,2 +1,0 @@
-#325E0D exmachinis:flux_sieve
-#3F84B7 minecraft:grass_block

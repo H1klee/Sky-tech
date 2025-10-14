@@ -1,2 +1,0 @@
-#4D3 minecraft:swamp
-#495 minecraft:the_void
